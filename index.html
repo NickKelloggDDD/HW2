@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business</title>
-    
+
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -13,13 +13,24 @@
 
 <body>
 
-    <h1>Home Page</h1>
+
+    <h1 class="font-bold uppercase text-center text-blue-500 p-5 m-5">Home Page</h1>
     
-    <p>Links</p>
-    
-    <p><a href="page2.html">About Us</a></p>
-    <p><a href="page3.html">Products</a></p>  
-    
+    <div class="flex">
+
+        <div class="w-1/2 m-5">
+            <div class="font-bold text-center m-4">Links</div>
+            <div class="text-center p-2 m-2"><a class="border-2" href="page2.html">About Us</a></div>
+            <div class="text-center p-2 m-2"><a class="border-2" href="page3.html">Products</a></div>
+        </div>
+
+        <div class="w-1/2 m-5">
+            <div class="font-bold text-center m-4">Blank Space</div>
+        </div>
+
+    </div>
+
+
 </body>
 
 
