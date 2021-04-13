@@ -1,1 +1,1 @@
-netlify link
+https://elastic-snyder-2da33d.netlify.app/index.html
